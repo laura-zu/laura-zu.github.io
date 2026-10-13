@@ -19,3 +19,8 @@ header, footer{
 ul{
     list-style-type: square;
 }
+
+.hobby-list li:nth-child(odd){
+
+    background-color:lightpink;
+}
