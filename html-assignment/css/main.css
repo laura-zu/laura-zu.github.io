@@ -24,3 +24,12 @@ ul{
 
     background-color:lightpink;
 }
+
+.nav-list{
+    list-style-type: none;
+}
+
+.nav-list a{
+    text-decoration: none;
+}
+
