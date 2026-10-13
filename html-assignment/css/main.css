@@ -31,5 +31,13 @@ ul{
 
 .nav-list a{
     text-decoration: none;
+    background-color: rgb(210, 179, 243);
+    border: 3px solid darkblue;
+    padding: 0 7px;
 }
+ a:hover{
+
+    background-color: springgreen;
+
+ }
 
