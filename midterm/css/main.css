@@ -1,11 +1,16 @@
+/* Applies border-box sizing to all elements.*/
 *{
 
     box-sizing: border-box;
 }
 
+/* Sets the root font size to 16px.*/
+
 html{
     font-size: 16px;
 }
+
+/* General styling for the entire webpage. */
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -29,6 +34,8 @@ body{
 
 }
 
+/* Navigation menu styling. */
+
 nav ul{
 
 margin-top: 0;
@@ -40,6 +47,7 @@ font-size: 18px;
 
 }
 
+/* Removes default underline and changes link color. */
 nav a {
     text-decoration: none;
     color: black;
@@ -62,6 +70,7 @@ header ul li a {
     color: black;
 }
 
+/* removes right border from nav bar  */
 nav li:last-child {
 
     border-right: none;
@@ -78,7 +87,7 @@ nav li:last-child {
     clear: both;
 
 }
-
+ /* Floats article images to the left of the text. */
 article img{
 
     float: left;
@@ -94,7 +103,7 @@ article img{
         position: relative;
         
     }
-
+/* Makes the header image responsive within its container. */
 header img {
     
    
@@ -103,7 +112,7 @@ header img {
     
 }
 
-
+/* Positions the main heading over the header image. */
 h1 {
 
 
@@ -116,6 +125,8 @@ h1 {
     color: white;
     
 }
+
+/* Adds space above the contact section. */
  .contact{
     padding-top: 80px;
  }
@@ -143,7 +154,6 @@ ul.facts{
     margin: 0 auto;
     width: 100%;
     box-sizing: border-box;
-   
     
 } 
 
@@ -151,13 +161,14 @@ ul.facts{
     width: 100%;
     box-sizing: border-box;
 }
-
+/* increases width to the id message   */
 #message {
     width: 100%;
     height: 100px;
     box-sizing: border-box;
 }
 
+/* Styles the SEND button. */
 button{
 
     background: transparent;
@@ -166,11 +177,14 @@ button{
     cursor: pointer;
     transition: opacity 0.2s; 
 }
+/* adds color to hover  */
     
 button:hover {
  background-color: rgb(255, 87, 224);
 
 }
+
+/* Uses Flexbox to align footer content to the right. */
  footer{
 
     display: flex;
